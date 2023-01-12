@@ -3,6 +3,7 @@
 # Entrada de datos del usuario. Identificacion del tipo de datos.
 
 edad = input("Escribe tu edad por favor: ")
+print(edad)
 
 # BOOLEANOS, IF
 

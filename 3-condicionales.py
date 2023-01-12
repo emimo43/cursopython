@@ -15,7 +15,7 @@ if(verdadero == True):
     print("Soy verdadero !!!") # Cumple la condicion de verdadero
 
 if(falso == True):
-    print("Son iguales")
+    print("Son iguales") # Esta condicion no se cumple por la cual no la vemos en consola
 
 # Operadores de Comparacion, elif, else
 

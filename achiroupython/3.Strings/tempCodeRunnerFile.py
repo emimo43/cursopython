@@ -1,0 +1,1 @@
+print(cadena[::2]) # Aqui la cadena me mostrara cada salto de dos caracteres

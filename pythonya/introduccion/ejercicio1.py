@@ -1,0 +1,1 @@
+print("Hola Mundo") # Este es nuestro primer programa en Python, mostramos por consola

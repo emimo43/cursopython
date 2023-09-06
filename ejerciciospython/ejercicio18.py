@@ -1,1 +1,0 @@
-# Un valor a multiples variables

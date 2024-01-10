@@ -10,13 +10,13 @@ division = 12 / 5 # Devuelve un float (flotante)
 exponente = 12 ** 5
 
 # Division baja (division entera) (//)
-division_baja = 12 // 5
+division_baja = 12 // 5 # Devuelve entero redondeado hacia abajo
 
 # Resto o modulo
 resto = 12 % 5
 
 # Funcion type() - muestra el tipo de dato de una variable
-tipo_de_dato = type(5)
+tipo_de_dato = type(5) # type() nos devuelve que tipo de dato es
 print(tipo_de_dato)
 
 

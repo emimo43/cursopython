@@ -1,0 +1,16 @@
+# Clase donde veremos la funcion print
+#print(*objects,sep='', end='\n', file=None, flush=False)
+print("El resultado","de sumar",10,"mas",50.65,"es",60.65)# Python y vscode mediente la funcion print, nos da el espacio
+print("Linea 1")
+print("Linea 2")
+print("Linea 3")
+print("")
+print("Linea 1","Linea 2","Linea 3")
+print("Linea 1\n","Linea 2","Linea 3")
+print("Linea 1\n","Linea 2\n","Linea 3")
+print("Linea 1\n","Linea 2\n","Linea 3")
+print("")
+print("Linea 1\nLinea 2\nLinea 3")
+print("Linea 4")
+print("")
+print("El resultado es:\n10.\n")

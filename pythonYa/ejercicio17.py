@@ -1,0 +1,20 @@
+'''
+Problema:
+    Confeccionar un programa que permita cargar un numero entero positivo de hasta tres cifras, y muestre un mensaje indicando si tiene 1,2 o 3 cifras. Mostrar un mensaje de error si el numero de cifras es mayor
+'''
+# Solicitamos los datos al Usuario
+numero = int(input("Favor ingresar un numero entero positivo de hasta tres cifras: "))
+
+# Ingresamos a la condicion if
+if numero > 0:    
+    if numero >= 1 and numero < 10:
+        print(f"El numero {numero} contiene un digito")
+    elif numero >= 10 and numero < 100:
+        print(f"El numero {numero} contiene dos digitos") 
+    elif numero >= 100 and numero < 1000:
+        print(f"El numero {numero} contiene tres digitos")  
+    else:
+        print("Ingreso un numero de mas de tres cifras, favor volver a intentarlo")         
+      
+else:
+    print("Favor ingresar un numero positivo de hasta tres cifras")                

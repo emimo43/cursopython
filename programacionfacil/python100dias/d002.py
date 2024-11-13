@@ -174,5 +174,104 @@ El operador de floor division -> Este operador // realiza divisiones y redondea 
 #print(division) # El resultado es 3.33333333333
 
 # Ahora, hagamos la misma division, pero con el nuevo operador
-division = 10 // 3 # Ahora nos dara una division exacta
-print(division)
+#division = 10 // 3 # Ahora nos dara una division exacta
+#print(division)
+
+# Operador Modulo
+
+'''
+    Este operador modulo(%) realiza tambien la division, pero en lugar de devolvernos el resultado, nos devuelve el resto
+'''
+
+#division = 10 % 3
+#print(division) # El resultado es 1
+
+'''
+    Truncamiento de numeros -> Podemos realizar un truncamiento de numeros convirtiendo tipos de datos. En el siguiente codigo tenemos dos numeros decimales. SI realizamos una operacion con ellos, nos devuelve un valor decimal, aunque sea 0
+'''
+#numero_1 = 10.60
+#numero_2 = 10.40
+
+#suma = numero_1 + numero_2
+
+#print(suma)
+
+'''
+    Si transformamos el valor del resultado a int() vamos a truncar los decimales, ya que el tipo de dato se convierte en integer y no admite decimales, los perdemos. Esto es util cuando solo quieres valores enteros
+'''
+'''
+numero_1 = 10.60
+numero_2 = 10.40
+
+suma = numero_1 + numero_2
+
+trunca_suma = int(suma) # Aqui estamos convirtiendo el valor float a integer
+
+print(trunca_suma)
+# Corroboramos esto con la funcion type()
+print(type(trunca_suma))
+'''
+
+'''
+    Redondeo de numeros --> En Python tenemos una funcion util llmada round() la cual, nos va a permitir redondear valores numericos.
+    En la siguiente multiplicacion obtenemos muchos decimales
+'''
+#multiplicacion = 7.5678 * 6.943534
+#print(multiplicacion)
+
+# Si utlicamos round() va a redondear a entero, a la alta o la baja, dependiendo de los decimales
+#multiplicacion = 7.5678 * 6.943534
+
+#print(round(multiplicacion))
+
+'''
+    Por si no sabes que es el redondeo a la alta o a la baja, aqui tienes un ejemplo
+    print(round(7.3))
+    print(round(7.5))
+    print(round(7.7))
+    
+    Y si no quieremos perder todos los decimales, de dejar unos cuantos?
+    
+    round() permite añadir un segundo argumento aparte del valor. Le indicaremos la cantidad de decimales que queremos
+    
+    multiplicacion = 7.5678 * 6.943534
+    
+    print(round(multiplicacion, 2))
+    
+    De todas formas, el redondeo lo sigue realizando con los decimales que le quedan
+'''
+
+'''
+    Operador de asignacion de incremento y decremento -->
+    
+    Hasta ahora, has visto el operador de asignacion == el que utilizamos para asignar valores a las variables. No obstante, tenemos mas variantes de este operador. Hay muchos, asi que en esta ocacion, solo veremos el incremento y decremento
+'''
+
+# Operador +=
+# Este operador asigna un incremento determinado a una variable
+
+#numero_1 = 10
+
+#numero_1 += 10 # Incrementa la variable en 10, el resultado sera 10 +10
+
+#print(numero_1) # Resultado es igual a 20 
+
+# Operador -=
+
+# Este operador hace lo contrario que el anterior, decrementa valores a si misma
+
+#numero_1 = 100
+
+#numero_1 -= 25 # Aqui decrementamos el valor 100 en menos 25
+
+#print(numero_1) # El resultado es 75
+
+'''
+    Formateo de Strings -->
+    Hay una cosa importante que debo detellar antes de continuar con el siguiente capitulo, el formateo de string
+'''
+suma = 90 + 67 # Estos son tipo de datos int
+print("El resultado de la suma es: " + str(suma)) # Aqui convertimos la variable suma a string
+
+# Pero tenemos mejor la funcion f{}
+print(f"El valor de la suma es: {suma}")

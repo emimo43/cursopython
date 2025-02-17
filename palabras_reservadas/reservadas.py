@@ -5,3 +5,4 @@
 import keyword
 # Llamamos a la funcion
 print(keyword.kwlist)
+# Esta funcion nos muestra las palabras reservadas del lenguaje

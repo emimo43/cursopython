@@ -12,3 +12,13 @@ print(saludo)
 edad = 32
 print(type(edad))
 print(edad)
+
+x = 10
+print(x)
+print(type(x)) # Con la funcion type() podemos determinar de que tipo de dato es la variable
+
+x = "Hola Mundo :)"
+print(x)
+print(type(x))
+
+x = 10.5

@@ -19,3 +19,4 @@ decimal.
 
 print(type("Enrique"))
 print(type(20))
+print(type(4.5))

@@ -20,3 +20,7 @@ decimal.
 print(type("Enrique"))
 print(type(20))
 print(type(4.5))
+
+print(type("Hola soy Enrique Lueiza"))
+print(type(10))
+print(type(4.5))

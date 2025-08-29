@@ -24,3 +24,33 @@ print(type(4.5))
 print(type("Hola soy Enrique Lueiza"))
 print(type(10))
 print(type(4.5))
+
+'''
+    5.- Escribe un comentario en varias lineas explicando que son los tipos de datos en Python
+'''
+
+'''
+    Los tipos de datos en Python, nos ayudan a saber de que tipo esta construido el dato, y en base a esto podemos definir variables y procedimientos
+'''
+
+'''
+    6.- Imprime el resultado de concatenar dos cadenas de texto, por ejemplo: "Hola" y "Mundo"
+'''
+
+saludo = "Hola"
+saludo2 = "Mundo"
+
+print(saludo + " " + saludo2)
+
+print("Hola" + "" + "Python")
+
+'''
+    ¿Que tipo de dato imprime el siguiente codigo?
+    
+'''
+print(type(3.14))
+
+'''
+    ¿Que se imprime al ejecutar el siguiente codigo?
+'''
+print("Hola, Python")

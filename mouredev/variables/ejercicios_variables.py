@@ -26,3 +26,18 @@ age = str(age) # Estamos convirtiendo la variable de tipo int a str
 print(type(age))
 print(f"Mi nombre es Enrique y tengo {age} años")
 print(type((f"Mi nombre es Enrique y tengo {age} años")))
+
+# 3.-> Declara una variable booleanda is_student que indique si eres estudiante o no. Usa TRUE o FALSE segun corresponda e imprimela
+
+# Declaramos la variable
+is_student = True
+print(type(is_student))
+print(is_student)
+
+# 4.-> Usa la funcion len() para calcular cuantos caracteres tiene tu nombre completo, almacenandolo en una variable
+
+# Creamos y declaramos la varible, debe ser descriptiva
+nombre = "Enrique Antonio Lueiza Mimó"
+print(type(nombre))
+print(f"Mi nombre es: {nombre}")
+print(len(nombre))
